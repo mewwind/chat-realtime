@@ -1,0 +1,20 @@
+{
+  "name": "chat-realtime",
+  "version": "1.0.0",
+  "description": "chat for real time",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "mill zhou",
+  "license": "ISC",
+  "pretest": "npm install",
+  "start": "node server.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
